@@ -75,8 +75,8 @@ st.logo(logo_full, link="https://streamlit.io", icon_image=logo_icon, size="larg
 # --- Page Title ---
 
 # --- Sidebar ---
-st.sidebar.title("30 Days of Streamlit")
-st.sidebar.markdown("The `#30DaysOfStreamlit` is a coding challenge designed to help you get started in building Streamlit apps. In this edition, our focus is on building GenAI apps.")
+st.sidebar.title("30 Days of AI")
+st.sidebar.markdown("The `#30DaysOfAI` is a coding challenge designed to help you get started in building AI apps with Streamlit.")
 
 # Create the selectbox (only if there are day options)
 if day_options:
@@ -94,13 +94,12 @@ else:
 # --- Dynamic Content Display ---
 if not day_options:
     # --- Welcome Page (No Challenge Files Found) ---
-    st.title("🚀 Welcome to the 30 Days of Streamlit Challenge!")
-    st.subheader("GenAI Edition")
+    st.title("🚀 Welcome to the 30 Days of AI Challenge!")
     
     st.markdown("""
     Welcome! 👋
     
-    Get ready to embark on an exciting journey to build GenAI-powered apps with **Streamlit** and **Snowflake**.
+    Get ready to embark on an exciting journey to build AI-powered apps with **Streamlit** and **Snowflake**.
     
     ### 🎯 What You'll Learn
     
@@ -135,7 +134,7 @@ if not day_options:
     
     **Stay tuned for Day 1!** The challenge content will appear here as we progress through each day.
     
-    Share your journey with **#30DaysOfStreamlit** 🚀
+    Share your journey with **#30DaysOfAI** 🚀
     """)
     
     st.info("💡 **Tip**: Daily challenges will appear in the sidebar once they're published.")
